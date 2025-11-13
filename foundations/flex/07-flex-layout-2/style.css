@@ -8,9 +8,9 @@ body {
 }
 
 * {
-  padding: 0px;
-  marging: 0px:
-  box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
 }
 
 .header {
@@ -21,7 +21,7 @@ body {
 	display: flex;
 	align-items: center;
 	font-weight: bold;
-  padding-left: 24px;
+	padding-left: 24px;
 }
 
 .content {
@@ -29,23 +29,23 @@ body {
 }
 
 .sidebar {
-  width: 400px;
-  background: royalblue;
+	width: 400px;
+	background: royalblue;
 }
 
 ul {
-  margin-left: 24px;
+	margin-left: 24px;
 	list-style: none;
 }
 
 a {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
 }
 
 li {
-  margin-bottom: 8px;
+	margin-bottom: 8px;
 }
 
 .cards {
@@ -56,21 +56,19 @@ li {
 }
 
 .card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
-  border-radius: 4px;
-  height: 280px;
-  width: 280px;
-  padding: 16px;
+	border: 1px solid #eee;
+	box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
+	border-radius: 4px;
+	height: 280px;
+	width: 280px;
+	padding: 16px;
 }
 
 .footer {
 	height: 48px;
 	background: #eee;
 	color: darkmagenta;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
-
